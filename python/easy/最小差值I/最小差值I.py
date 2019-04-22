@@ -3,6 +3,6 @@ class Solution:
         maxVal = max(A)
         minVal = min(A)
         if maxVal - minVal > K * 2:
-            return maxVal - K - (minVal + K)
+            return maxVal - (K * 2) - minVal
         else:
             return 0
